@@ -1,0 +1,28 @@
+# ----------- CONFIGURABLE START -----------
+title:            "Ryan Hoo"
+description:      "Android Software Engineer, also a mediocre Product Manager and Designer"
+url:              http://ryanhoo.github.io # Site url, without a slash at the end.
+signoff:          "Ryan Hoo" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
+author:           "Ryan Hoo"
+github:           "ryanhoo"
+disqus:           "ryanhoo"
+
+links:
+  - name:         Home
+    url:          /
+    external:     false
+  - name:         About
+    url:          /about
+    external:     false
+  - name:         Github
+    url:          https://github.com/ryanhoo
+    external:     true
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /blog/:year/:month/:day/:title
+defaults:
+  - values:
+      layout:     "default"
